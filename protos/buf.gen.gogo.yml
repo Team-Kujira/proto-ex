@@ -1,0 +1,7 @@
+version: v1
+plugins:
+  - name: elixir
+    out: ../lib
+    opt:
+      - plugins=grpc,Mgoogle/protobuf/any.proto=github.com/cosmos/cosmos-sdk/codec/types
+      # - package_prefix=kujira_proto

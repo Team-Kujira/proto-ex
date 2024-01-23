@@ -1,0 +1,15 @@
+[submodule "cosmos-sdk"]
+	path = protos/cosmos-sdk
+	url = https://github.com/cosmos/cosmos-sdk.git
+[submodule "protos/wasmd"]
+	path = protos/wasmd
+	url = https://github.com/CosmWasm/wasmd.git
+[submodule "protos/ibc-go"]
+	path = protos/ibc-go
+	url = https://github.com/cosmos/ibc-go.git
+[submodule "protos/core"]
+	path = protos/core
+	url = https://github.com/Team-Kujira/core.git
+[submodule "protos/alliance"]
+	path = protos/alliance
+	url = https://github.com/terra-money/alliance
