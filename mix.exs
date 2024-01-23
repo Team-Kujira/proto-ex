@@ -4,6 +4,7 @@ defmodule KujiraProto.MixProject do
   def project do
     [
       app: :kujira_proto,
+      description: "Protobuf bindings and gRPC clients for the Kujira Blockchain",
       version: "0.9.3",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
@@ -15,6 +16,14 @@ defmodule KujiraProto.MixProject do
   def application do
     [
       extra_applications: [:logger]
+    ]
+  end
+
+  defp package do
+    [
+      maintainers: ["Codehans"],
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => "https://github.com/Team-Kujira/proto-ex"}
     ]
   end
 
