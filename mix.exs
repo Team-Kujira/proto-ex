@@ -23,7 +23,6 @@ defmodule KujiraProto.MixProject do
     [
       {:protobuf, "~> 0.10.0"},
       {:google_protos, "~> 0.1"},
-      {:gun, "~> 2.0.0", override: true, hex: :grpc_gun},
       {:grpc, "~> 0.5.0"}
     ]
   end
