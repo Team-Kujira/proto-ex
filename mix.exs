@@ -5,7 +5,7 @@ defmodule KujiraProto.MixProject do
     [
       app: :kujira_proto,
       description: "Protobuf bindings and gRPC clients for the Kujira Blockchain",
-      version: "0.9.3",
+      version: "0.9.4",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
